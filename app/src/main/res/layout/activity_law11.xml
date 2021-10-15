@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/toolbar_background"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:elevation="4dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    android:paddingTop="56dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_law1_head1"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textStyle="bold"
+            android:text="Word, gesture or act intended to insult the modesty of a women (Section 509)"
+            android:paddingTop="5dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/text_law1_txt1"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:text="An act which is done intending to insult the modesty of woman which may not necessarily involve any physical force is brought under the shade of this provision
+through Section 509. This section intends to deter any kind of aggression into a woman's modesty whether by any word, gesture or act or by intruding upon the
+privacy of such woman. This section is also referred as the 'Eve Teasing Section'.
+\n\nAny person who commits an offence under Section 509 shall be punished with simple imprisonment for a term which may extend to three years with fine.
+\n\nEssential Ingredients
+\nThis section requires-
+\n\n1. An intention to insult the modesty of a woman;
+\n\n2. The insult must be caused either by intruding upon the privacy of a woman; or by making any gesture or sound, uttering any word or exhibiting any object."
+            android:paddingTop="20dp"
+            android:paddingBottom="5dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+    </LinearLayout>
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

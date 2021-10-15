@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/toolbar_background"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:elevation="4dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    android:paddingTop="56dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_threat_head1"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:text="1. What should a woman do if she finds herself alone in the company of a strange male as she prepares to enter a lift in a High-Rise apartment late at night ...?????"
+            android:paddingTop="25dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/text_threat_txt1"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:text="\nExperts Say: Enter the lift ....... If you need to reach the 1 3th floor, press all the buttons up to your destination. No one will dare attack you in a lift that stops on every floor."
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/text_threat_head2"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:text="\n2. What to do if a stranger tries to attack you when you are alone in your house, run into the kitchen."
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/text_threat_txt2"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:text="\nExperts Say: You alone know where the chili powder and turmeric are kept. And where the knives and plates are. All these can be turned into deadly weapons. If nothing else, start throwing plates and utensils all over. Let them break. Scream... Remember that noise is the greatest enemy of a molester. He does not want to be caught."
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/text_threat_head3"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:text="\n3. Taking an Auto or Taxi at Night."
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/text_threat_txt3"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:text="\nExperts Say: Before getting into an auto at night, note down its registration number. Then use the mobile to call your family or friend and pass on the details to them in the language the driver understands. Even if no one answers your call, pretend you are in a conversation. The driver now knows someone has his details and he will be in serious trouble if anything goes wrong. He is now bound to take you home safe and sound. A potential attacker is now your de facto protector."
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/text_threat_head4"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:text="\n4. What if the driver turns into a street he is not supposed too and you feel you are entering a danger zone ...."
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/text_threat_txt4"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:text="\nExperts Say: Use the handle of your purse or your stole (dupatta) to wrap around his neck and pull him back. Within seconds, he will feel choked and helpless. In case you don't have a purse or stole just pull him back by his collar. The top button of his shirt would then do the same trick."
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/text_threat_head5"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:text="\n5. If you are stalked at night ...."
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/text_threat_txt5"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:text="\nExpert Say: Enter a shop or a house and explain your predicament. If it is night and shops are not open, go inside an ATM box. ATM centers always have close circuit television. Fearing identification, no one will dare attack you."
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/text_threat_head6"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:text="\nAfter all, being mentally alert is the greatest weapon you can ever have."
+            android:paddingBottom="5dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+    </LinearLayout>
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/toolbar_background"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:elevation="4dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:background="@android:color/white"
+    android:paddingTop="56dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_law2_head1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingRight="5dp"
+            android:text="Rape (Sections 375, 376, 376A, 376B, 376C, 376D and 376E)"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_law2_txt1"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:text="Section 375, IPC defines rape. In simple terms, the offence of rape is the ravishment of a woman, without her consent, by force, fraud or fear.
+In other words, it is the carnal knowledge (penetration of any of the slightest degree of the male organ of reproduction) of any woman by force against her will.
+It is an obnoxious act of highest degree which violates the right to privacy and sanctity of a female. Apart from being a dehumanizing and perverted act,
+it is also an unlawful interference in the personal life of a woman which is an intense blow on the honor, dignity, reputation and self-esteem of a woman.
+This outrageous crime not only causes physical injury to the victim but also humiliates, degrades and leaves a scar on the most precious jewel of a woman
+i.e. her character and dignity.
+\n\nEssential Ingredients of Rape
+\nSection 375 has the following two essential ingredient-
+\n\n1. Actus Reus: There must be sexual intercourse, as understood in terms of the provisions of Section 375 (a) to (d), with a woman by a man.
+\n\n2. Men’s Rea: The sexual intercourse must be under any of the seven circumstances as given under Section 375.
+\n\nPunishment for Rape (Section 376)
+\n\n1. Section 376 provides punishment for committing the heinous crime of rape. This section is divided into two sub-sections.
+\n\n2. Section 376(1) provides a minimum sentence of seven years of imprisonment that may extend to life imprisonment and fine.
+\n\n3. Section 376(2) provides punishment not less than ten years of imprisonment but may extend to imprisonment for life or death or fine.
+\n\nGang Rape (Section 376D)
+\n\nSection 376D lays down the punishment for gang rape. Where a woman is raped by more than one person acting in furtherance of a common intention,
+each of them shall be liable for the offence of rape and shall be punished with rigorous imprisonment for not less than twenty years which may extend to
+lifetime imprisonment and fine."
+            android:paddingTop="20dp"
+            android:paddingBottom="5dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+    </LinearLayout>
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

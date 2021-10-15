@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="app_name">Women Security</string>
+    <string name="about_the_app">About the App</string>
+    <string name="exit">Exit</string>
+    <string name="nav_header_desc">nav_header_desc</string>
+    <string name="hello_world">Hello World</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="n20_important_tips_regarding_women_safety">20 important Tips Regarding Women Safety</string>
+    <string name="Exit">Exit</string>
+    <string name="exit_message">Are you sure?</string>
+    <string name="about_app">Woman Safety app is developed for protecting lives of people in any emergency situations. In case of any unsafe situation, just TAP the SOS button to raise an emergency SOS alert to the trusted contacts saved in the application. The SOS alert will be in the form of SMS informing that you are unsafe and need help. The SMS includes accurate current GPS location with address of the user along with google maps link. The trusted contacts can use this google maps link to get directions and navigate to the exact location of the distressed person. The app can be used for your personal safety, woman safety and children safety.\n\nWoman Safety app also provides tips for woman safety, tips to escape from threat, Indian penal code sections related to woman and videos that helps for self defense.\n\nIn order to send the SOS alert to the trusted contacts, user should accept few permissions that prompts with in the application. These granted permissions allows application to get the location details, read contacts, perform calls and send SMS.\n\nWoman safety application is meant for SOS alerts in case of any emergencies. So, developer is not responsible for any misuse of the application.</string>
+</resources>

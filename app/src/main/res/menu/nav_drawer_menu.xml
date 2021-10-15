@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/tips1"
+            android:title="Tips for Women Security"
+            android:icon="@drawable/ic_menu_tips1"/>
+        <item
+            android:id="@+id/tips2"
+            android:title="Tips to Escape from Threat"
+            android:icon="@drawable/ic_menu_tips2"/>
+        <item
+            android:id="@+id/laws"
+            android:title="Laws Related to Women"
+            android:icon="@drawable/ic_menu_laws"/>
+        <item
+            android:id="@+id/videos"
+            android:title="Videos for Self Defence"
+            android:icon="@drawable/ic_menu_videos"/>
+
+    </group>
+
+    <item android:title="App Details">
+
+        <menu>
+
+            <item
+                android:id="@+id/share"
+                android:title="Share"
+                android:icon="@drawable/ic_menu_laws"/>
+            <item
+                android:id="@+id/rate"
+                android:title="Rate the app"
+                android:icon="@drawable/ic_menu_rate"/>
+            <item
+                android:id="@+id/about"
+                android:title="About the App"
+                android:icon="@drawable/ic_menu_about"/>
+
+        </menu>
+
+    </item>
+
+</menu>
